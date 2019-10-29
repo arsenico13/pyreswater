@@ -1,0 +1,15 @@
+*.pyc
+*.DS_Store
+*.zip
+*.jpg
+
+.Python
+bin/
+include/
+lib/
+pip-selfcheck.json
+
+appunti/*
+
+watermark/images/*
+watermark/watermarked/*
