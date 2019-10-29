@@ -8,6 +8,28 @@
 Dependencies are specified in the `requirements.txt` file as usual.
 
 
+## Usage examples
+
+Go inside the `watermark` folder and:
+
+
+- Resize all pictures inside the `images` folder to a maximum of 1800 pixels
+  and with no watermark:
+
+    python watermark.py -n -r -m 1800 images
+
+
+- Resize all pictures inside the `images` folder to a maximum of 2100 pixels,
+  at 300dpi, with white watermark:
+
+    python watermark.py -p -r -m 2100 images
+
+
+- Resize the file `ciccibalicci.jpg` to a maximum of 2000 pixels and append the
+  string `res` to the output file:
+
+    python watermark.py -s res -r -m 2000 ciccibalicci.jpg
+
 
 #### Notes
 
