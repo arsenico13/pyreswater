@@ -57,7 +57,7 @@ class ScriptConf():
     def __init__(
             self,
             margin=20,
-            suffix="_wm",
+            suffix="wm",
             dest_path="watermarked/",
             image_quality=95,
             max_size=1700,
@@ -136,6 +136,8 @@ def get_file_name(
 
     date: specifica se inserire o meno la data (AAAA-MM-DD) nel nome.
     """
+
+    suffix = config.suffix or suffix
 
     file_name = [
         config.dest_path,
@@ -254,12 +256,23 @@ def main():
         action="store_true",
         )
 
+    parser.add_argument(
+        '-s',
+        "--suffix",
+        help="String. Text to append at the end of the processed image.",
+        type=str
+    )
+
     args = parser.parse_args()
 
+    suffix = "".join(["_", args.suffix]) if args.suffix else "_wm"
+
+    print(f"Suffisso file in uscita: {suffix}")
+
     if args.margin:
-        conf = ScriptConf(margin=args.margin)
+        conf = ScriptConf(margin=args.margin, suffix=suffix)
     else:
-        conf = ScriptConf()
+        conf = ScriptConf(suffix=suffix)
 
     if args.no_watermark and not args.resize:
         raise argparse.ArgumentError(
