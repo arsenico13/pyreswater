@@ -1,24 +1,19 @@
-# Virtualenv per la modifica di immagini con Python
+# PYRESWATER
+
+> A simple python command-line utility to resize and watermarking images.
 
 
-Creato con il comando:
+### Virtualenv
 
-    virtualenv -p /usr/local/bin/python pyimages
-
-
-## Pillow
-
-Aggiornato pip:
-
-    pip3 install --upgrade pip
-
-E installato pillow:
-
-    pip3 install Pillow
+Dependencies are specified in the `requirements.txt` file as usual.
 
 
-## Colori - Colori a terminale - Colorama
 
-Installato il pacchetto `colorama`:
+#### Notes
 
-    pip3 install colorama
+This software grew up as a personal command-line tool to help me in my workflow
+with my photos. It does what it's supposed to do.
+Right now is quite versatile (for a side project with no time dedicated to it)
+but has some limitations.
+
+Feel free to try it. I may enhance it when the time comes...
