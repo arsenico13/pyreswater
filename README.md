@@ -10,6 +10,9 @@ Dependencies are specified in the `requirements.txt` file as usual.
 
 ## Usage examples
 
+The logo for the watermark has to be a `png` file with trasparency (otherwise
+the result would not be so good...but it's you choice).
+
 Go inside the `watermark` folder and:
 
 
@@ -29,6 +32,15 @@ Go inside the `watermark` folder and:
   string `res` to the output file:
 
     python watermark.py -s res -r -m 2000 ciccibalicci.jpg
+
+- Resize the file `ciccibalicci.jpg` to a maximum of 2100 pixels using the png
+  at the specified path:
+
+    python watermark.py -r -m 2100 -l "images/logo/Custom_Logo.png" ciccibalicci.jpg
+
+Just use `python watermark.py -h` to show the help.
+
+
 
 
 ### DPI
