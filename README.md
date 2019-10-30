@@ -31,6 +31,12 @@ Go inside the `watermark` folder and:
     python watermark.py -s res -r -m 2000 ciccibalicci.jpg
 
 
+### DPI
+
+If you don't specify the `-p` flag, all the processed images will be
+scaled to 150dpi. If you use `-p` they will be at 300dpi.
+
+
 #### Notes
 
 This software grew up as a personal command-line tool to help me in my workflow
