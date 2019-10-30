@@ -61,12 +61,14 @@ class ScriptConf():
             dest_path="watermarked/",
             image_quality=95,
             max_size=1700,
+            logo_path="images/logo/Arsenico13_White.png",
             ):
         self.margin = margin
         self.suffix = suffix
         self.dest_path = dest_path
         self.image_quality = image_quality
         self.max_size = max_size
+        self.LOGO = logo_path
 
 # LOGO_WHITE = "images/logo/Arsenico13_White.png"
 # LOGO_BLACK = "images/logo/Arsenico13_Black.png"
@@ -263,6 +265,13 @@ def main():
         type=str
     )
 
+    parser.add_argument(
+        '-l',
+        "--logo",
+        help="String. The path for the watermark png file.",
+        type=str
+    )
+
     args = parser.parse_args()
 
     suffix = "".join(["_", args.suffix]) if args.suffix else "_wm"
@@ -295,10 +304,12 @@ def main():
 
     image = args.image
 
+    if args.logo:
+        print(args.logo)
+        conf.LOGO = args.logo
+
     if args.black:
         conf.LOGO = "images/logo/Arsenico13_Black.png"
-    else:
-        conf.LOGO = "images/logo/Arsenico13_White.png"
 
     if os.path.isfile(image):
         # Watermark di una singola immagine
