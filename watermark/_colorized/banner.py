@@ -34,12 +34,12 @@ DEALINGS IN THE SOFTWARE.
 from .colors import *
 
 
-def banner():
+def banner(version):
     banner = '''
 %s%s   Python Watermark (and Resize) Tool
-              %s%sVersion : %s%s0.5
+              %s%sVersion : %s%s%s
               %s%sAuthor  : %s%sarsenico13
               %s%sGithub  : %s%shttps://github.com/arsenico13
 
-''' % (fy, sb, fy, sd, fg, sd, fy, sd, fg, sd, fy, sd, fg, sd)
+''' % (fy, sb, fy, sd, fg, sd, version, fy, sd, fg, sd, fy, sd, fg, sd)
     return banner

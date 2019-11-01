@@ -365,5 +365,5 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.stdout.write(banner())
+    sys.stdout.write(banner(__version__))
     main()
