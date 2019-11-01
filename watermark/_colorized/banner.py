@@ -8,7 +8,8 @@ License : MIT
 Edited by 	: arsenico13
 
 
-Copyright (c) 2018 Nasir Khan (r0ot h3x49)
+Copyright (c) 2018-2019 Nasir Khan (r0ot h3x49)
+Copyright (c) 2019 Giacomo Monari (arsenico13)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
