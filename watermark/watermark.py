@@ -1,5 +1,32 @@
 # -*- coding: utf-8 -*-
 
+'''
+
+Author    : Giacomo Monari (arsenico13)
+Github    : https://github.com/arsenico13
+License   : GPLv3
+Edited by : arsenico13
+
+
+Copyright (c) 2017-2019  - Giacomo Monari (arsenico13)
+
+This file is part of Pyreswater.
+
+Pyreswater is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Pyreswater is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Pyreswater.  If not, see <http://www.gnu.org/licenses/>.
+
+'''
+
 # Usage example:
 # Singola immagine con resize settato a 1100:
 #   python watermark.py -r -m 1100 images/DSC_9521.jpg
