@@ -5,7 +5,6 @@
 Author    : Giacomo Monari (arsenico13)
 Github    : https://github.com/arsenico13
 License   : GPLv3
-Edited by : arsenico13
 
 
 Copyright (c) 2017-2019  - Giacomo Monari (arsenico13)
@@ -23,7 +22,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Pyreswater.  If not, see <http://www.gnu.org/licenses/>.
+along with Pyreswater (see the COPYING file).
+If not, see <http://www.gnu.org/licenses/>.
 
 '''
 
