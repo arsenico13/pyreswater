@@ -68,6 +68,7 @@ class ScriptConf():
         image_quality (int): la qualità in output dell'immagine
         max_size (int): la dimensione massima in pixel del lato più lungo
                         dell'immagine finale processata
+        logo_path (str): il percorso del watermark da aggiungere
 
     Attributes:
         LOGO (str): il percorso del logo da usare
