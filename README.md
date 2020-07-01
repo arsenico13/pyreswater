@@ -41,8 +41,6 @@ Go inside the `watermark` folder and:
 Just use `python watermark.py -h` to show the help.
 
 
-
-
 ### DPI
 
 If you don't specify the `-p` flag, all the processed images will be
