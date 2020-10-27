@@ -59,3 +59,5 @@ Right now is quite versatile (for a side project with no time dedicated to it)
 but has some limitations.
 
 Feel free to try it. I may enhance it when the time comes...
+
+If you have any requests, open an issue.
