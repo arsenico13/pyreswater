@@ -7,7 +7,7 @@ Github    : https://github.com/arsenico13
 License   : GPLv3
 
 
-Copyright (c) 2017-2019  - Giacomo Monari (arsenico13)
+Copyright (c) 2017-2020  - Giacomo Monari (arsenico13)
 
 This file is part of Pyreswater.
 
