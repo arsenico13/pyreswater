@@ -13,7 +13,7 @@ Dependencies are specified in the `requirements.txt` file as usual.
 The logo for the watermark has to be a `png` file with trasparency (otherwise
 the result would not be so good...but it's you choice).
 
-Go inside the `watermark` folder and:
+To start use `Pyreswater` go inside the `watermark` folder and:
 
 
 - Resize all pictures inside the `images` folder to a maximum of 1800 pixels
@@ -38,7 +38,11 @@ Go inside the `watermark` folder and:
 
     python watermark.py -r -m 2100 -l "images/logo/Custom_Logo.png" ciccibalicci.jpg
 
-Just use `python watermark.py -h` to show the help.
+Just use `python watermark.py -h` to show the help text.
+
+
+Right now, all the processed images go inside the `watermarked` folder. In the
+future it will be possibile to save them beside the original.
 
 
 ### DPI
