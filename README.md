@@ -53,6 +53,11 @@ If you don't specify the `-p` flag, all the processed images will be
 scaled to 150dpi. If you use `-p` (as in "print") they will be at 300dpi.
 
 
+## Other resources and/or licenses
+
+- Roboto Font: https://github.com/google/fonts/tree/main/apache/roboto
+
+
 #### Notes
 
 This software grew up as a personal command-line tool to help me in my workflow
