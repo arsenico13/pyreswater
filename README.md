@@ -19,11 +19,13 @@ To start use `Pyreswater` go inside the `watermark` folder and:
 - Resize all pictures inside the `images` folder to a maximum of 1800 pixels
   and with no watermark:
 
+
     python watermark.py -n -r -m 1800 images
 
 
 - Resize all pictures inside the `images` folder to a maximum of 2100 pixels,
   at 300dpi, with white watermark:
+
 
     python watermark.py -p -r -m 2100 images
 
@@ -31,12 +33,16 @@ To start use `Pyreswater` go inside the `watermark` folder and:
 - Resize the file `ciccibalicci.jpg` to a maximum of 2000 pixels and append the
   string `res` to the output file:
 
+
     python watermark.py -s res -r -m 2000 ciccibalicci.jpg
+
 
 - Resize the file `ciccibalicci.jpg` to a maximum of 2100 pixels using the png
   at the specified path:
 
+
     python watermark.py -r -m 2100 -l "images/logo/Custom_Logo.png" ciccibalicci.jpg
+
 
 Just use `python watermark.py -h` to show the help text.
 
@@ -48,7 +54,7 @@ future it will be possibile to save them beside the original.
 ### DPI
 
 If you don't specify the `-p` flag, all the processed images will be
-scaled to 150dpi. If you use `-p` they will be at 300dpi.
+scaled to 150dpi. If you use `-p` (as in "print") they will be at 300dpi.
 
 
 #### Notes
@@ -60,4 +66,4 @@ but has some limitations.
 
 Feel free to try it. I may enhance it when the time comes...
 
-If you have any requests, open an issue.
+If you have any requests, open an issue (or make a pull request).
