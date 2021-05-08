@@ -55,6 +55,7 @@ scaled to 150dpi. If you use `-p` (as in "print") they will be at 300dpi.
 
 ## Other resources and/or licenses
 
+- Pillow docs: https://pillow.readthedocs.io/en/stable/index.html
 - Roboto Font: https://github.com/google/fonts/tree/main/apache/roboto
 
 
